@@ -279,8 +279,8 @@ void loop() {
   sensor.clearFields();
 
   // check and print temperature and humidity
-  float temp = dht.readTemperature(); // legge la temperatura in gradi Celsius
-  float hum = dht.readHumidity(); // legge l'umidità relativa
+  float temp = dht.readTemperature();
+  float hum = dht.readHumidity(); 
 
   sensor.addField("Temperature",temp);
   sensor.addField("Humidity",hum);
